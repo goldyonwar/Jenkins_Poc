@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     JenkinsPocTheme {
-        Greeting("Android")
+        Greeting("Android build 11")
     }
 }
