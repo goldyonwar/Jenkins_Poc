@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name! 1234 ",
+        text = "Hello $name! 12345 ",
         modifier = modifier
     )
 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     JenkinsPocTheme {
-        Greeting("Android build 1234")
+        Greeting("Android build 12345")
     }
 }
